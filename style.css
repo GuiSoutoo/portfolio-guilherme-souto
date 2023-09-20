@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mooli&display=swap');
+
+:root {
+    --cor-primaria: #9932CC;
+    --cor-sencudaria: #000000;
+    --cor-terciaria: #ffff00;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Mooli', sans-serif;
+
+    --tamanho-da-fonte: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: var(--cor-primaria);
+    color: var(--cor-sencudaria);
+}
+
+.destaque-título {
+    color: var(--cor-terciaria);
+}
+
+.apresentação{
+    margin: 1% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+    gap: 82px;
+}
+
+.apresentação__conteúdo{
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentação__conteúdo__título{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentação__conteúdo__parágrafo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentação__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentação__links__subititulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentação__links__navegaçao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 19px 0;
+    text-decoration: none;
+    color: var(--cor-sencudaria);
+    font-family: var(--fonte-secundaria);
+    border: 3px solid var(--cor-terciaria);
+}
+
+.apresentação__links__navegaçao img{
+    width: 35px;
+    height: 35px;
+}
+
+.apresentação__links__navegaçao:hover{
+    background-color: #c07bde;
+    padding: 1.5%;
+}
+
+.apresentação__imagem {
+    width: 50%;    
+}
+
+.destaque-nome{
+    color: var(--cor-terciaria);
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor-sencudaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.cabeçalho{
+    padding: 3.5% 0% 0% 10%;
+}
+
+.cabeçalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabeçalho__menu__link{
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+@media (max-width: 1200px){
+    .cabeçalho{
+        padding: 10%;
+    }
+
+    .cabeçalho__menu{
+        justify-content: center;
+    }
+
+    .apresentação{
+        flex-direction: column-reverse;
+    }
+
+    .apresentação__conteúdo{
+        width: auto;
+    }
+}
