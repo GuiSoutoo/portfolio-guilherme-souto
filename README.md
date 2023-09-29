@@ -10,7 +10,7 @@ Este projeto foi feito com o objetivo de estudos do curso de HTML E CSS na Alura
 | :fire: Desafio     | https://portfolio-guilherme-souto.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![]([file:///C:/Users/guiso/Desktop/Projetos%20Alura/Meu%20primeiro%20projeto%20HTML%20CSS/Gui.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt-br.facebook.com%2FProgramaMateriaDeCapa%2Fphotos%2Fmat%25C3%25A9ria-de-capa-al%25C3%25A9m-do-universoestariam-os-cientistas-equivocados-em-rela%25C3%25A7%25C3%25A3o-%25C3%25A0-%2F1511926668888843%2F&psig=AOvVaw3bTw5xm3w9lHoWx3M9alFJ&ust=1696083571086000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjqyOiB0IEDFQAAAAAdAAAAABAE)#vitrinedev)
+![](https://pt-br.facebook.com/ProgramaMateriaDeCapa/photos/matéria-de-capa-além-do-universoestariam-os-cientistas-equivocados-em-relação-à-/1511926668888843/#vitrinedev)
 
 ## Detalhes do projeto
 
